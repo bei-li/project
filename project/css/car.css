@@ -1,0 +1,79 @@
+*{margin:0;top:0;list-style:none;text-decoration:none;}
+/*头部*/
+.margin{width:1200px;}
+#top{height:30px;border-top:1px solid #cecece;background:url(../images/t1.png)  }
+#top .t-f1{float:left;}
+#top .t-f1 .f1-d{float:left}
+#top .t-f1 .f1-d span{font:700 12px/30px  "";color:#676767;margin:0 6px 0 15px;}
+#top .t-f1 .f1-d .yel{font:700 12px/30px "";color:#ff7700;margin-left:6px;}
+#top .t-fr{float:right;margin-right:16px;}
+#top .t-fr li{float:left;}
+#top .t-fr li b{color:#bfbfbf;display: block;float:left;width:1px;height:12px;margin-top:5px;}
+#top .t-fr li a{color:#676767;display:block;float:left;font:12px/30px "";padding:0 8px 0 12px;}
+#top .t-fr .fr-d2{position:relative;}
+
+#top .t-fr .fr-d2 .car-num{color:#f9ba54;margin-left:5px;font-size:15px; font-weight:700;}
+#top .t-fr .fr-d2 s{background:url(../images/t2.png) no-repeat;width:17px;height:13px;
+float;left;overflow:hidden;position:absolute;left:8px;top:8px;}
+#top .t-fr .fr-d2 a{display:block;margin-left:15px;margin-right:13px;}
+
+
+#top .t-fr .fr-d2 .t3{background:url(../images/t3.png) no-repeat;;overflow:hidden;
+ position:absolute;right:8px;top:15px;display:block;width:10px;height:10px;} 
+ #top .t-fr .fr-d3{position:relative;}
+ #top .t-fr .fr-d3 a{margin-right:10px;}
+ #top .t-fr .fr-d3 .t3{background:url(../images/t3.png) no-repeat;;overflow:hidden;
+ position:absolute;right:8px;top:15px;display:block;width:10px;height:10px;} 
+ #top .t-fr .fr-d3 .server{position:absolute;left:-26px;top:30px;width:80px;background:#fff;z-index:5;}
+  #top .t-fr .fr-d3 .server li{height:20px;display:none;cursor: pointer;}
+  #top .t-fr .fr-d3:hover {background;#fff;cursor: pointer;}
+  #top .t-fr .fr-d3:hover .server li{display:block;cursor: pointer;}
+ 
+ /*搜索*/
+#header{height:90px;position:relative;}
+#header .logo{width:140px;height:74px;margin:6px 0 0 28px;border-width:  40px;float:left;}
+
+/*cont*/
+#cont{}
+#cont h2{font:700 18px/2 "";color:#000;margin-left:30px;}
+#cont .order{padding:0;height:30px;border-bottom:2px solid #de7701;margin-left:30px;}
+#cont .order li{font:14px/30px "";float:left;width:122px;height:30px;background:#fff2d4;border:1px solid #de7701;margin-right:5px;text-align:center;}
+#cont .order .active{background:#de7701;color:#fff;font-weight:700;}
+#cont .goods{background:#f3f3f3;margin-left:30px;color:#fe9901}
+#cont .goods .tab{ border:1px solid #ccc; cellspacing:0; width:800px; text-align:center;border-top:0;}
+#cont .tab img{width:50px;}
+#cont .tab span{width:60px;height:40px;line-height:40px;background:#99f;color:#fff;display:block;text-align:center;cursor:pointer;}
+#cont .tab input{width:40px}
+
+
+
+
+
+
+ /*footer*/
+#footer{height:158px;position:relative;margin-top:40px;}
+#footer p{font:12px/52px "";text-align:center;}
+#footer .cont{height:42px;margin-left:10px;}
+#footer .cont li{float:left;width:170px;display:relative;height:44px;}
+#footer .cont li b{float:left;display:block;width:62px;height:48px;background: url(../images/foot-t.png) no-repeat;background-position:0 0;}
+#footer .cont li span{float:left;display:block;width:100px;font:8px/2 "";color:#454545;float:left;}
+#footer .cont li:nth-child(1) b{background-position:0 0;}
+#footer .cont li:nth-child(2) b{background-position:0 -46px;width:30px;}
+#footer .cont li:nth-child(3) b{background-position:0 -90px;width:40px;}
+#footer .cont li:nth-child(4) b{background-position:0 -136px;}
+#footer .cont li:nth-child(5) b{background-position:0 -189px;}
+#footer .cont li:nth-child(6) b{background-position:0 -239px;width:30px}
+
+#footer .cont li:nth-child(1) {width:212px}
+#footer .cont li:nth-child(1) span{width:145px;}
+#footer .cont li:nth-child(2){width:210px}
+#footer .cont li:nth-child(2) span{width:176px;}
+#footer .cont li:nth-child(3){width:140px}
+#footer .cont li:nth-child(5) span{width:110px;}
+#footer .cont li:nth-child(5){width:188px}
+#footer .cont li:nth-child(6) span{width:140px;}
+#footer .cont li:nth-child(6){width:200px}
+#footer .foot-t{height:192px;text-align:center;margin:10px;}
+#footer .foot-t s{font:12px/2 "";color:#666;display:block;}
+#footer .foot-t i{font:12px/2 "";color:#939393;background:url(../images/t7.png) no-repeat left;padding-left:20px;}
+
